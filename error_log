@@ -1,0 +1,16 @@
+[24-Jul-2023 09:00:31 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 31461376 bytes) in /home/ossplanter/public_html/monika2/vendor/codeigniter4/framework/system/Debug/Toolbar.php on line 112
+[24-Jul-2023 09:01:28 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 14684160 bytes) in /home/ossplanter/public_html/monika2/vendor/codeigniter4/framework/system/Debug/Toolbar.php on line 112
+[24-Jul-2023 09:01:31 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 14684160 bytes) in /home/ossplanter/public_html/monika2/vendor/codeigniter4/framework/system/Debug/Toolbar.php on line 112
+[24-Jul-2023 09:01:33 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 14684160 bytes) in /home/ossplanter/public_html/monika2/vendor/codeigniter4/framework/system/Debug/Toolbar.php on line 112
+[08-Sep-2023 07:28:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/monika/public_html/aset_suppco/cek_koneksi.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/monika/public_html/aset_suppco/cek_koneksi.php on line 9
+[08-Sep-2023 07:45:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/monika/public_html/aset_suppco/cek_koneksi.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/monika/public_html/aset_suppco/cek_koneksi.php on line 9
+[07-Oct-2023 23:29:10 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monika/public_html/aset_suppco/app/Controllers/C_master_katalog.php on line 380
+[07-Oct-2023 23:31:52 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monika/public_html/aset_suppco/app/Controllers/C_master_katalog.php on line 177
+[07-Oct-2023 23:32:45 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monika/public_html/aset_suppco/vendor/codeigniter4/framework/system/BaseModel.php on line 300
+[07-Oct-2023 23:39:54 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/monika/public_html/aset_suppco/vendor/codeigniter4/framework/system/Database/Config.php on line 75

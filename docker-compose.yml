@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ci4_monika_app
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8880:80"  # Change this to your desired port
+    environment:
+      - CI_ENVIRONMENT=development
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    container_name: ci4_monika_db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dockdbmonika
+      MYSQL_USER: user
+      MYSQL_PASSWORD: resu
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
